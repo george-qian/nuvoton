@@ -29,7 +29,11 @@ https://github.com/OpenNuvoton/MPU-Family
 
    2.1 安装keil mdk5.18.exe
 
-   2.2 安装keil518 legacy support for arm mdk79518.exe(装了，但不知道是不是必须)
+   2.2 安装keil518 legacy support for arm mdk79518.exe(装了支持arm9开发)
+
+   2.3 安装jlink驱动Setup_JLinkARM_V408l.exe
+   
+      - 避免mdk调试时，弹框提示更新jlink：点更新，更新完成后，将\Program Files (x86)\SEGGER\JLinkARM_V408l目录下文件覆盖到\Keil_v5\ARM\Segger目录下
 
 3. 下载示例代码
 
